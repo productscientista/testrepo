@@ -1,0 +1,93 @@
+{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"classes": {
+			"Superhero": {
+				"panelColor": "#C3D69B",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 25,
+						"Y": 20
+					},
+					"pathVisible": true
+				}
+			},
+			"Movie": {
+				"panelColor": "#D7E3BC",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 255,
+						"Y": 20
+					},
+					"pathVisible": true
+				}
+			}
+		},
+		"model": {
+			"scriptMode": "manual",
+			"workspaceLeft": 0,
+			"workspaceTop": 0
+		}
+	},
+	"dataClasses": [
+		{
+			"collectionName": "SuperheroCollection",
+			"className": "Superhero",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				},
+				{
+					"name": "name",
+					"scope": "public",
+					"type": "string",
+					"kind": "storage"
+				},
+				{
+					"name": "movie",
+					"scope": "public",
+					"path": "Movie",
+					"type": "Movie",
+					"kind": "relatedEntity"
+				}
+			]
+		},
+		{
+			"collectionName": "MovieCollection",
+			"className": "Movie",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				},
+				{
+					"name": "title",
+					"scope": "public",
+					"type": "string",
+					"kind": "storage"
+				},
+				{
+					"name": "superheroCollection",
+					"scope": "public",
+					"reversePath": true,
+					"path": "movie",
+					"type": "SuperheroCollection",
+					"kind": "relatedEntities"
+				}
+			]
+		}
+	],
+	"type": []
+}

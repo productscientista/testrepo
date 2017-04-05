@@ -1,0 +1,27 @@
+2017-04-05 18:18:30 [wakanda.supervisor] INFO - solution closed
+2017-04-05 18:18:30 [wakanda] INFO - Opens the solution "OSX:Users:wakanda:Documents:Wakanda:solutions:HelloWorldWeb:app.waSolution" for running
+2017-04-05 18:18:30 [wakanda.HelloWorldWeb] INFO - Users and groups directory opened
+2017-04-05 18:18:30 [IndexManager] INFO - Index  on Movie.ID built in 0 ms
+2017-04-05 18:18:30 [IndexManager] INFO - Index  on Superhero.ID built in 0 ms
+2017-04-05 18:18:30 [IndexManager] INFO - Index  on Superhero.movie built in 0 ms
+2017-04-05 18:18:30 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - Datastore opened
+2017-04-05 18:18:30 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8081,"securedPort":443,"mode":"http"}
+2017-04-05 18:18:30 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - "back-end-superheroes" project opened
+2017-04-05 18:18:30 [wakanda.HelloWorldWeb.ServerAdmin] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8080,"securedPort":4433,"mode":"http"}
+2017-04-05 18:18:30 [wakanda.HelloWorldWeb.ServerAdmin] INFO - "ServerAdmin" project opened
+2017-04-05 18:18:30 [wakanda.HelloWorldWeb] INFO - "HelloWorldWeb" solution opened
+2017-04-05 18:18:30 [wakanda] INFO - Starts "HelloWorldWeb" solution
+2017-04-05 18:18:30 [wakanda.HelloWorldWeb.ServerAdmin] WARN - Failed to set the required key and certificate for secure connections
+2017-04-05 18:18:31 [wakanda.HelloWorldWeb.ServerAdmin] INFO - HTTP Server started
+2017-04-05 18:18:31 [wakanda.HelloWorldWeb.ServerAdmin] INFO - "ServerAdmin" project started
+2017-04-05 18:18:31 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - HTTP Server started
+2017-04-05 18:18:31 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - "back-end-superheroes" project started
+2017-04-05 18:18:31 [wakanda.HelloWorldWeb.ServerAdmin] INFO - Executes the bootstrap file(s)
+2017-04-05 18:18:31 [wakanda.HelloWorldWeb.ServerAdmin] INFO - Bootstrap file(s) executed
+2017-04-05 18:18:31 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - Executes the bootstrap file(s)
+2017-04-05 18:18:31 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - Bootstrap file(s) executed
+2017-04-05 18:18:31 [wakanda.HelloWorldWeb] INFO - "HelloWorldWeb" solution started
+2017-04-05 18:18:31 [wakanda] INFO - "HelloWorldWeb" solution has been successfully opened for running (duration: 855 ms)
+2017-04-05 18:18:31 [wakanda.supervisor] INFO - solution opened
+2017-04-05 18:18:31 [IndexManager] INFO - Index  on Superhero.ID built in 0 ms
+2017-04-05 18:18:31 [IndexManager] INFO - Index  on Superhero.movie built in 0 ms

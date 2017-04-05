@@ -1,0 +1,17 @@
+{
+  "name": "HelloWorldWeb",
+  "components": [
+    {
+      "type": "web",
+      "template": "angular1-gulp",
+      "name": "web",
+      "path": "./web"
+    },
+        {
+      "type": "backend",
+      "template": "wakanda-javascript",
+      "name": "back-end-superheroes",
+      "path": "./back-end-superheroes"
+    }
+    ]
+}
