@@ -7,20 +7,31 @@
 				"panelColor": "#C3D69B",
 				"panel": {
 					"isOpen": "true",
+					"pathVisible": true,
 					"position": {
 						"X": 25,
 						"Y": 20
-					},
-					"pathVisible": true
+					}
 				}
 			},
 			"Movie": {
 				"panelColor": "#D7E3BC",
 				"panel": {
 					"isOpen": "true",
+					"pathVisible": true,
 					"position": {
 						"X": 255,
 						"Y": 20
+					}
+				}
+			},
+			"BadGuy": {
+				"panelColor": "#B2A2C7",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 25,
+						"Y": 170
 					},
 					"pathVisible": true
 				}
@@ -34,35 +45,69 @@
 	},
 	"dataClasses": [
 		{
-			"collectionName": "SuperheroCollection",
-			"className": "Superhero",
+			"name": "Movie",
+			"className": "Movie",
+			"collectionName": "MovieCollection",
+			"scope": "public",
 			"attributes": [
 				{
 					"name": "ID",
 					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
 					"type": "long",
-					"autosequence": "true",
-					"unique": "true",
-					"primKey": "true"
+					"primKey": true
 				},
 				{
-					"name": "name",
+					"name": "title",
+					"kind": "storage",
 					"scope": "public",
-					"type": "string",
-					"kind": "storage"
+					"type": "string"
 				},
 				{
-					"name": "movie",
+					"name": "superheroCollection",
+					"kind": "relatedEntities",
 					"scope": "public",
-					"path": "Movie",
-					"type": "Movie",
-					"kind": "relatedEntity"
+					"type": "SuperheroCollection",
+					"reversePath": true,
+					"path": "movie"
 				}
 			]
 		},
 		{
-			"collectionName": "MovieCollection",
-			"className": "Movie",
+			"name": "Superhero",
+			"className": "Superhero",
+			"collectionName": "SuperheroCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "name",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "movie",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "Movie",
+					"path": "Movie"
+				}
+			]
+		},
+		{
+			"collectionName": "BadGuyCollection",
+			"className": "BadGuy",
 			"attributes": [
 				{
 					"name": "ID",
@@ -73,18 +118,10 @@
 					"primKey": "true"
 				},
 				{
-					"name": "title",
+					"name": "Name",
 					"scope": "public",
 					"type": "string",
 					"kind": "storage"
-				},
-				{
-					"name": "superheroCollection",
-					"scope": "public",
-					"reversePath": true,
-					"path": "movie",
-					"type": "SuperheroCollection",
-					"kind": "relatedEntities"
 				}
 			]
 		}
