@@ -25,3 +25,69 @@
 2017-04-05 18:18:31 [wakanda.supervisor] INFO - solution opened
 2017-04-05 18:18:31 [IndexManager] INFO - Index  on Superhero.ID built in 0 ms
 2017-04-05 18:18:31 [IndexManager] INFO - Index  on Superhero.movie built in 0 ms
+2017-04-06 18:27:30 [wakanda] INFO - Stops "HelloWorldWeb" solution
+2017-04-06 18:27:32 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - "back-end-superheroes" project stopped
+2017-04-06 18:27:33 [wakanda.HelloWorldWeb.ServerAdmin] INFO - "ServerAdmin" project stopped
+2017-04-06 18:27:33 [wakanda.HelloWorldWeb] INFO - "HelloWorldWeb" solution stopped
+2017-04-06 18:27:33 [wakanda] INFO - Closes "HelloWorldWeb" solution
+2017-04-06 18:27:33 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - "back-end-superheroes" project closed
+2017-04-06 18:27:33 [wakanda.HelloWorldWeb.ServerAdmin] INFO - "ServerAdmin" project closed
+2017-04-06 18:27:34 [wakanda.HelloWorldWeb] INFO - "HelloWorldWeb" solution closed
+2017-04-07 16:30:26 [wakanda.HelloWorldWeb] INFO - Users and groups directory opened
+2017-04-07 16:30:26 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - Datastore opened
+2017-04-07 16:30:26 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8081,"securedPort":443,"mode":"http"}
+2017-04-07 16:30:26 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - "back-end-superheroes" project opened
+2017-04-07 16:30:26 [wakanda.HelloWorldWeb.ServerAdmin] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8080,"securedPort":4433,"mode":"http"}
+2017-04-07 16:30:26 [wakanda.HelloWorldWeb.ServerAdmin] INFO - "ServerAdmin" project opened
+2017-04-07 16:30:26 [wakanda.HelloWorldWeb] INFO - "HelloWorldWeb" solution opened
+2017-04-07 16:30:26 [wakanda] INFO - Starts "HelloWorldWeb" solution
+2017-04-07 16:30:27 [wakanda.HelloWorldWeb.ServerAdmin] WARN - Failed to set the required key and certificate for secure connections
+2017-04-07 16:30:27 [wakanda.HelloWorldWeb.ServerAdmin] INFO - HTTP Server started
+2017-04-07 16:30:27 [wakanda.HelloWorldWeb.ServerAdmin] INFO - "ServerAdmin" project started
+2017-04-07 16:30:27 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - HTTP Server started
+2017-04-07 16:30:27 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - "back-end-superheroes" project started
+2017-04-07 16:30:27 [wakanda.HelloWorldWeb.ServerAdmin] INFO - Executes the bootstrap file(s)
+2017-04-07 16:30:27 [wakanda.HelloWorldWeb.ServerAdmin] INFO - Bootstrap file(s) executed
+2017-04-07 16:30:27 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - Executes the bootstrap file(s)
+2017-04-07 16:30:27 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - Bootstrap file(s) executed
+2017-04-07 16:30:27 [wakanda.HelloWorldWeb] INFO - "HelloWorldWeb" solution started
+2017-04-07 16:30:27 [wakanda] INFO - "HelloWorldWeb" solution has been successfully opened for running (duration: 2050 ms)
+2017-04-07 16:30:27 [wakanda.supervisor] INFO - solution opened
+2017-04-07 16:30:28 [wakanda.HelloWorldWeb.ServerAdmin] INFO -  created 
+2017-04-07 16:30:28 [wakanda.HelloWorldWeb.ServerAdmin] INFO - set the debugger
+2017-04-07 17:41:02 [wakanda] INFO - Stops "HelloWorldWeb" solution
+2017-04-07 17:41:04 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - "back-end-superheroes" project stopped
+2017-04-07 17:41:05 [wakanda.HelloWorldWeb.ServerAdmin] INFO - "ServerAdmin" project stopped
+2017-04-07 17:41:05 [wakanda.HelloWorldWeb] INFO - "HelloWorldWeb" solution stopped
+2017-04-07 17:41:05 [wakanda] INFO - Closes "HelloWorldWeb" solution
+2017-04-07 17:41:06 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - "back-end-superheroes" project closed
+2017-04-07 17:41:06 [wakanda.HelloWorldWeb.ServerAdmin] INFO - "ServerAdmin" project closed
+2017-04-07 17:41:06 [wakanda.HelloWorldWeb] INFO - "HelloWorldWeb" solution closed
+2017-04-11 17:12:08 [wakanda.HelloWorldWeb] INFO - Users and groups directory opened
+2017-04-11 17:12:09 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - Datastore opened
+2017-04-11 17:12:09 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8081,"securedPort":443,"mode":"http"}
+2017-04-11 17:12:09 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - "back-end-superheroes" project opened
+2017-04-11 17:12:10 [wakanda.HelloWorldWeb.ServerAdmin] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8080,"securedPort":4433,"mode":"http"}
+2017-04-11 17:12:10 [wakanda.HelloWorldWeb.ServerAdmin] INFO - "ServerAdmin" project opened
+2017-04-11 17:12:10 [wakanda.HelloWorldWeb] INFO - "HelloWorldWeb" solution opened
+2017-04-11 17:12:10 [wakanda] INFO - Starts "HelloWorldWeb" solution
+2017-04-11 17:12:10 [wakanda.HelloWorldWeb.ServerAdmin] WARN - Failed to set the required key and certificate for secure connections
+2017-04-11 17:12:10 [wakanda.HelloWorldWeb.ServerAdmin] INFO - HTTP Server started
+2017-04-11 17:12:10 [wakanda.HelloWorldWeb.ServerAdmin] INFO - "ServerAdmin" project started
+2017-04-11 17:12:11 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - HTTP Server started
+2017-04-11 17:12:11 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - "back-end-superheroes" project started
+2017-04-11 17:12:11 [wakanda.HelloWorldWeb.ServerAdmin] INFO - Executes the bootstrap file(s)
+2017-04-11 17:12:11 [wakanda.HelloWorldWeb.ServerAdmin] INFO - Bootstrap file(s) executed
+2017-04-11 17:12:11 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - Executes the bootstrap file(s)
+2017-04-11 17:12:11 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - Bootstrap file(s) executed
+2017-04-11 17:12:11 [wakanda.HelloWorldWeb] INFO - "HelloWorldWeb" solution started
+2017-04-11 17:12:11 [wakanda] INFO - "HelloWorldWeb" solution has been successfully opened for running (duration: 4124 ms)
+2017-04-11 17:12:11 [wakanda.supervisor] INFO - solution opened
+2017-04-12 12:25:28 [wakanda] INFO - Stops "HelloWorldWeb" solution
+2017-04-12 12:25:29 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - "back-end-superheroes" project stopped
+2017-04-12 12:25:30 [wakanda.HelloWorldWeb.ServerAdmin] INFO - "ServerAdmin" project stopped
+2017-04-12 12:25:30 [wakanda.HelloWorldWeb] INFO - "HelloWorldWeb" solution stopped
+2017-04-12 12:25:30 [wakanda] INFO - Closes "HelloWorldWeb" solution
+2017-04-12 12:25:31 [wakanda.HelloWorldWeb.back-end-superheroes] INFO - "back-end-superheroes" project closed
+2017-04-12 12:25:31 [wakanda.HelloWorldWeb.ServerAdmin] INFO - "ServerAdmin" project closed
+2017-04-12 12:25:31 [wakanda.HelloWorldWeb] INFO - "HelloWorldWeb" solution closed
